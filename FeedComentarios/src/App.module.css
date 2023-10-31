@@ -1,0 +1,31 @@
+.ContainerFeed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgba(185, 183, 187, 0.397);
+    width: 50vh;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.ContainerFeed input , textarea {
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 5px;
+}
+
+.ContainerFeed button {
+    width: 260px;
+    padding: 5px;
+}
+
+.ContainerFeed hr {
+   margin-right: 55px;
+   width: 260px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
